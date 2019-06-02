@@ -1,0 +1,26 @@
+<?xml version = "1.0"?>
+<root>
+    <Characters>
+        <Quinn>
+            <Stats hp="10" atk="4" def="10" enAtk="2" enDef="7" agi="3"/>
+            <StatGrowth hp="1.5" atk="1.1" def="1.8" enAtk="1.1" enDef="1.6" agi="1.2"/>
+            <Techniques>
+                <Technique name="Shield Bash" levelLearned="0" element="metal" effectAmt="2" effectType="Damage" addedEffectType="DefDown" addedEffectChance=".1" target="enemy"/>
+                <Technique name="Discus Ricochet" levelLearned="0" element="metal" effectAmt="3" effectType="Damage" addedEffectType="DefDown" addedEffectChance=".5" target="enemy"/>
+
+            </Techniques>
+            <TechniqueSchedule>
+                <Move name="Bodyguard" levelLearned="2" element="bio" effectAmt="0" effectType="Support" addedEffectType="DefUp" addedEffectChance="1" target="ally"/>
+            </TechniqueSchedule>
+        </Quinn>
+        <Eve>
+            <Stats hp="7" atk="11" def="5" enAtk="3" enDef="3" agi="9"/>
+            <StatGrowth hp="1.1" atk="1.9" def="1.2" enAtk="1.6" enDef="1.5" agi="1.9"/>
+            <Techniques>
+                <Technique name="Frenzy Slice" element="metal" effectAmt="4" effectType="Damage" addedEffectType="None" addedEffectChance="0" target="enemy"/>
+            </Techniques>
+            <TechniqueSchedule>
+            </TechniqueSchedule>
+        </Eve>
+    </Characters>
+</root>
